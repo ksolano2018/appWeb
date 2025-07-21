@@ -23,7 +23,7 @@ menu = st.sidebar.radio("Ir a:", ["Inicio", "Productos", "Carrito", "Contacto"])
 # Página: Inicio
 if menu == "Inicio":
     st.title("🛒 Bienvenido a Mi Tienda")
-    st.image("https://via.placeholder.com/800x250?text=Bienvenido+a+Mi+Tienda", use_column_width=True)
+    st.image("https://via.placeholder.com/800x250?text=Bienvenido+a+Mi+Tienda", use_container_width=True)
     st.write("Explora nuestros productos y disfruta de tus compras en línea.")
 
 # Página: Productos
