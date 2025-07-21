@@ -23,8 +23,35 @@ menu = st.sidebar.radio("Ir a:", ["Inicio", "Productos", "Carrito", "Contacto"])
 # Página: Inicio
 if menu == "Inicio":
     st.title("🛒 Bienvenido a Mi Tienda")
-    st.image("https://via.placeholder.com/800x250?text=Bienvenido+a+Mi+Tienda", use_container_width=True)
-    st.write("Explora nuestros productos y disfruta de tus compras en línea.")
+    st.image("https://via.placeholder.com/800x250?text=Bienvenido+a+Mi+Tienda+Online", use_container_width=True)
+
+    st.markdown("""
+    ## Tu tienda online de confianza
+    En **Mi Tienda**, encontrarás productos de alta calidad seleccionados cuidadosamente para ti.  
+    Nos enfocamos en ofrecer una experiencia de compra fácil, segura y rápida desde la comodidad de tu hogar.
+    """)
+
+    st.divider()
+
+    col1, col2, col3 = st.columns(3)
+    with col1:
+        st.subheader("🚚 Envíos Rápidos")
+        st.write("Entregas en 24-72h en todo el país. Tu pedido, directo a tu puerta.")
+
+    with col2:
+        st.subheader("🔒 Pagos Seguros")
+        st.write("Utilizamos plataformas certificadas para proteger tu información.")
+
+    with col3:
+        st.subheader("📞 Soporte 24/7")
+        st.write("¿Dudas? Nuestro equipo está disponible para ayudarte en todo momento.")
+
+    st.divider()
+
+    st.markdown("""
+    ### 👉 ¿Listo para comprar?
+    Visita la sección de productos y empieza tu experiencia de compra:
+    """)
 
 # Página: Productos
 elif menu == "Productos":
