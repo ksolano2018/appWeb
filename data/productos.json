@@ -18,6 +18,6 @@
         "nombre": "assets/mochila.jpg",
         "precio": 89.99,
         "descripcion": "Mochila resistente con múltiples compartimentos.",
-        "imagen": "https://via.placeholder.com/200"
+        "imagen": "assets/mochila.jpg"
     }
 ]
