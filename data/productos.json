@@ -4,18 +4,18 @@
         "nombre": "Camiseta Deportiva",
         "precio": 59.99,
         "descripcion": "Camiseta deportiva de secado rápido.",
-        "imagen": "https://via.placeholder.com/200"
+        "imagen": "assets/camisetas.jpg"
     },
     {
         "id": 2,
         "nombre": "Zapatos de Running",
         "precio": 129.99,
         "descripcion": "Zapatos cómodos para correr largas distancias.",
-        "imagen": "https://via.placeholder.com/200"
+        "imagen": "assets/zapatos.jpg"
     },
     {
         "id": 3,
-        "nombre": "Mochila Multiusos",
+        "nombre": "assets/mochila.jpg",
         "precio": 89.99,
         "descripcion": "Mochila resistente con múltiples compartimentos.",
         "imagen": "https://via.placeholder.com/200"
